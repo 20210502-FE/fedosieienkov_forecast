@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    border-width: 3px 0 0 3px;
+}
+
+ul>li {
+    border-width: 0 3px 3px 0;
+}
+
+ul , li {
+    border-color: #ffffff;
+    border-style: solid;
+}
+
+.container {
+    background-color: #3399CC;
+    color: #ffffff;
+    padding: 20px 0;
+    font-size: 0;
+    text-align: center;
+    height: 100%;
+}
+
+.container__wrapper {
+    max-width: calc(100vw - 30%);
+    margin: 0 auto;
+}
+
+.container__title {
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.container__content {
+    margin-bottom: 30px;
+}
+
+.container__bottom-text {
+    font-size: 20px;
+}
+
+.city-list_item {
+    display: inline-block;
+    font-size: 25px;
+    height: 95px;
+    padding: 15px 0;
+}
+
+.city-list_item:hover {
+    opacity: 0.5;
+}
+
+.city-list_item > span {
+    display: block;
+}
+
+.city-list_item_25 {
+    width: 25%;
+}
+
+.city-list_item_50 {
+    width: 50%;
+}
+
+.city-list_item_100 {
+    width: 100%;
+}
+
+.city-list_item_bg_Curious-Blue {
+    background-color: #3399CC;
+}
+
+.city-list_item_bg_Turquoise {
+    background-color: #33CCCC;
+}
+
+.city-list_item_bg_Strikemaster {
+    background-color: #996699;
+}
+
+.city-list_item_bg_Crail {
+    background-color: #C24747;
+}
+
+.city-list_item_bg_Terracotta {
+    background-color: #E2674A;
+}
+
+.city-list_item_bg_Golden-Tainoi {
+    background-color: #FFCC66;
+}
+
+.city-list_item_bg_De-York {
+    background-color: #99CC99;
+}
+
+.city-list_item_bg_Patina {
+    background-color: #669999;
+}
+
+.city-list_item_bg_Hopbush {
+    background-color: #CC6699;
+}
+
+.city-list_item_bg_Sea-Green {
+    background-color: #339966;
+}
+
+.city-list_item_bg_Kimberly {
+    background-color: #666699;
+}
+
